@@ -2,7 +2,13 @@
 #include "SPI.h"
 #include "BallySoundTester.h"
 
-SoundTester tester = SoundTester(0);
+//-----------------------------
+// Set the Sound Hardware
+// See the READ ME File for a list of sound hardware arguments to use in SoundTester(xxx)
+SoundTester tester = SoundTester(SANDT);
+//SoundTester tester = SoundTester(SOUNDS_DELUXE);
+//-----------------------------
+
 const byte indata_length = 100;
 
 void setup()
@@ -51,6 +57,10 @@ void serialEvent()
           tester.play(sound_id);
         }
 
+      }
+      else if (inData[0] =='s')
+      {
+        tester.stop();
       }
     j=0;
     }
