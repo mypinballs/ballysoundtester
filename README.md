@@ -19,38 +19,38 @@ To select the sound board in use in the sketch use the following defines in the 
 
 1) Computer Sound Board
 
-CSB
-CSB6
-COMPUTER_SOUND_BOARD
-COMPUTER_SOUND_BOARD_6
+- CSB
+- CSB6
+- COMPUTER_SOUND_BOARD
+- COMPUTER_SOUND_BOARD_6
 
 2) Computer Sound Board 7 Digit
 
-CSB7
-COMPUTER_SOUND_BOARD_7
+- CSB7
+- COMPUTER_SOUND_BOARD_7
 
 3) Squawk & Talk Sound Board
 
-SANDT
-SQUAWK_AND_TALK
+- SANDT
+- SQUAWK_AND_TALK
 
 4) Cheap Squeak Sound Board
 
-CS
-CHEAP_SQUEAK
-NASTY
+- CS
+- CHEAP_SQUEAK
+- NASTY
 
 5) Turbo Cheap Squeak
 
-TURBO_CHEAP_SQUEAK
-TCS 
+- TURBO_CHEAP_SQUEAK
+- TCS
 
 6) Sounds Deluxe (Sounds Good) Sound Board
 
-SOUNDS_DELUXE
-SOUNDS_GOOD
-SD
-BIG_68000_MONSTER
+- SOUNDS_DELUXE
+- SOUNDS_GOOD
+- SD
+- BIG_68000_MONSTER
 
 
 # Control
